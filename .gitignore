@@ -1,3 +1,7 @@
+# exclude large files
+prebuilt_images/
+*.img
+
 # If files for your editor are not included in this file,
 # consider adding them to .git/info/exclude
 # or $XDG_CONFIG_HOME/git/ignore
