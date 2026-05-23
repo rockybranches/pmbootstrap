@@ -17,9 +17,8 @@ ensure_sudo
 echo -e "Generating an image for flashing to the device..."
 pmbootstrap install
 
-ensure_sudo
 echo -e "Rebooting bootloader..."
-sleep 1s; adb reboot bootloader
+sleep 1s; fastboot reboot bootloader
 
 ensure_sudo
 echo -e "Flashing rootfs..."
